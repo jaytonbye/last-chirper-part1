@@ -8,7 +8,6 @@ class AddChirp extends React.Component{
     handleSubmit = (e) => {
         e.preventDefault()
         this.props.func({name: this.state.name, text:this.state.text})
-        //this.setState({name: '', text: ''})
         this.props.func2()
     }
     render(){
